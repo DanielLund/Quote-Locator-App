@@ -56,7 +56,7 @@ class QuotesPage:
         WebDriverWait(self.browser, 10).until(
             expected_conditions.presence_of_element_located(
                 (By.CSS_SELECTOR, QuotesPageLocators.TAG_DROPDOWN_VALUE_OPTION)
-            )W
+            )
         )
 
         try:
